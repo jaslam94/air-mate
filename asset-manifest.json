@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/air-mate/static/css/main.815ee5f0.chunk.css",
+    "main.js": "/air-mate/static/js/main.48c253af.chunk.js",
+    "main.js.map": "/air-mate/static/js/main.48c253af.chunk.js.map",
+    "runtime-main.js": "/air-mate/static/js/runtime-main.2581100e.js",
+    "runtime-main.js.map": "/air-mate/static/js/runtime-main.2581100e.js.map",
+    "static/css/2.f4c56af9.chunk.css": "/air-mate/static/css/2.f4c56af9.chunk.css",
+    "static/js/2.96ea0e17.chunk.js": "/air-mate/static/js/2.96ea0e17.chunk.js",
+    "static/js/2.96ea0e17.chunk.js.map": "/air-mate/static/js/2.96ea0e17.chunk.js.map",
+    "static/js/3.6fdfefc3.chunk.js": "/air-mate/static/js/3.6fdfefc3.chunk.js",
+    "static/js/3.6fdfefc3.chunk.js.map": "/air-mate/static/js/3.6fdfefc3.chunk.js.map",
+    "index.html": "/air-mate/index.html",
+    "static/css/2.f4c56af9.chunk.css.map": "/air-mate/static/css/2.f4c56af9.chunk.css.map",
+    "static/css/main.815ee5f0.chunk.css.map": "/air-mate/static/css/main.815ee5f0.chunk.css.map",
+    "static/js/2.96ea0e17.chunk.js.LICENSE.txt": "/air-mate/static/js/2.96ea0e17.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2581100e.js",
+    "static/css/2.f4c56af9.chunk.css",
+    "static/js/2.96ea0e17.chunk.js",
+    "static/css/main.815ee5f0.chunk.css",
+    "static/js/main.48c253af.chunk.js"
+  ]
+}
