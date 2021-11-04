@@ -14,12 +14,12 @@ function AirData({ apiData, city, state, country }) {
         </h5>
         <div className="row">
           {pollution.ts && (
-            <div className="col-md-6">
+            <div className="col-md-6 mb-3">
               <PollutionData {...pollution} />
             </div>
           )}
           {weather.ts && (
-            <div className="col-md-6">
+            <div className="col-md-6 mb-3">
               <WeatherData {...weather} />
             </div>
           )}
