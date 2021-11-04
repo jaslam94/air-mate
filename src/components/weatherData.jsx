@@ -3,7 +3,10 @@ import { weatherImageUrl } from "../config.json";
 import PropTypes from "prop-types";
 
 function WeatherData({ ts, tp, pr, hu, ws, wd, ic }) {
-  const iconUrl = `${weatherImageUrl}/${ic}.png`;
+  let iconUrl = `${weatherImageUrl}/${ic}.png`;
+  if (ic === "04n") {
+    iconUrl = `${weatherImageUrl}/04d.png`;
+  }
   return (
     <>
       <div className="rounded shadow bg-white rounded pb-3">
