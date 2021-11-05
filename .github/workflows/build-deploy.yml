@@ -33,3 +33,5 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: npm run deploy
+      env:
+       CI: false
