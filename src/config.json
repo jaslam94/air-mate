@@ -1,6 +1,0 @@
-{
-    "apiUrlIp": "https://api.airvisual.com/v2/nearest_city",
-    "apiUrlCity": "https://api.airvisual.com/v2/city",
-    "pollutionIconUrl": "https://www.iqair.com/assets/aqi",
-    "weatherImageUrl": "https://www.airvisual.com/images"
-}
