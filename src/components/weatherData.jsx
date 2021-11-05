@@ -3,15 +3,19 @@ import { weatherImageUrl } from "../config.json";
 import PropTypes from "prop-types";
 
 function WeatherData({ ts, tp, pr, hu, ws, wd, ic }) {
-  const iconUrl = `${weatherImageUrl}/${ic}.png`;
+  let iconUrl = `${weatherImageUrl}/${ic}.png`;
+  if (ic === "04n") {
+    iconUrl = `${weatherImageUrl}/04d.png`;
+  }
   return (
     <>
       <div className="rounded shadow bg-white rounded pb-3">
         <div className="d-flex align-items-center justify-content-center py-3 mb-3">
           <img
             src={iconUrl}
-            className="border-0 mx-3 img-fluid"
-            style={{ maxWidth: "28%" }}
+            className="border-0 mx-2 img-fluid"
+            width="100"
+            height="100"
             alt="..."
           ></img>
           <span className="display-6">{tp} °C</span>

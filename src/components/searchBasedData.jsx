@@ -111,7 +111,7 @@ function ShowSearchedData({ onGoBackClick }) {
           <SearchBox
             value={searchBoxValue}
             onChange={setSearchBoxValue}
-            onClick={handleSearchBoxSubmit}
+            onSubmit={handleSearchBoxSubmit}
           />
           {links.length !== 0 && (
             <div className="row justify-content-center">
