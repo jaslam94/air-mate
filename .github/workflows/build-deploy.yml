@@ -9,9 +9,6 @@ on:
   pull_request:
     branches: [ master ]
 
-env:
-  REACT_APP_IQ_AIR_API_KEY: ${{secrets.REACT_APP_IQ_AIR_API_KEY}}
-
 jobs:
   build:
 
@@ -41,6 +38,7 @@ jobs:
         git remote set-url origin https://${github_token}@github.com/${repository}
         npm run deploy
       env:
+        REACT_APP_IQ_AIR_API_KEY: ${{secrets.REACT_APP_IQ_AIR_API_KEY}}
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
