@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/air-mate/static/css/main.8ccc6012.chunk.css",
-    "main.js": "/air-mate/static/js/main.5de7e883.chunk.js",
-    "main.js.map": "/air-mate/static/js/main.5de7e883.chunk.js.map",
+    "main.js": "/air-mate/static/js/main.84a55801.chunk.js",
+    "main.js.map": "/air-mate/static/js/main.84a55801.chunk.js.map",
     "runtime-main.js": "/air-mate/static/js/runtime-main.2581100e.js",
     "runtime-main.js.map": "/air-mate/static/js/runtime-main.2581100e.js.map",
     "static/css/2.f4c56af9.chunk.css": "/air-mate/static/css/2.f4c56af9.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.f4c56af9.chunk.css",
     "static/js/2.4d10f8cb.chunk.js",
     "static/css/main.8ccc6012.chunk.css",
-    "static/js/main.5de7e883.chunk.js"
+    "static/js/main.84a55801.chunk.js"
   ]
 }
