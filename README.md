@@ -1,3 +1,6 @@
+
+![example workflow](https://github.com/jaslam94/air-mate/actions/workflows/build-deploy.yml/badge.svg)
+
 # Air Mate
 
 Use [Air Mate](https://jaslam94.github.io/air-mate/) to check current air quality and weather.
